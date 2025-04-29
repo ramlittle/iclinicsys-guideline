@@ -1,0 +1,27 @@
+[
+    {
+        "title":"emr record",
+        "link":"",
+        "image":"../images/1-emr-record-menu.png"
+    },
+    {
+        "title":"logistic management",
+        "link":"",
+        "image":"../images/2-logistic-management-menu.png"
+    },
+    {
+        "title":"environmental health",
+        "link":"",
+        "image":"../images/3-environmental-health-menu.png"
+    },
+    {
+        "title":"administrative management",
+        "link":"",
+        "image":"../images/4-administrative-management-menu.png"
+    },
+    {
+        "title":"financial management",
+        "link":"",
+        "image":"../images/5-financial-management-menu.png"
+    }
+]
