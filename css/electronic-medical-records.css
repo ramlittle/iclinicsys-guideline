@@ -1,3 +1,13 @@
-.electronic-medical-records-container{
-    height:90vh;
+#electronic-medical-record-videos-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.25rem;
+    justify-content: center;
+}
+
+.video-container,.pdf-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:0.25rem;
 }

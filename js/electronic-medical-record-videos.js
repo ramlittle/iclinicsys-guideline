@@ -1,33 +1,36 @@
-const VideosContainer=document.querySelector('#electronic-medical-record-videos-container');
+const videoContainer = document.querySelector('#electronic-medical-record-videos-container');
 const videoUrl = '../json/electronic-medical-record-videos.json';
 
-function fetchData(){
+function fetchVideos() {
     fetch(videoUrl)
-    .then(res=>res.json())
-    .then(data=>{
-       displayData(data);
-    })
+        .then(res => res.json())
+        .then(data => {
+            displayVideos(data);
+        });
 }
 
-function displayData(data){
-    if(!data.length){
-        return VideosContainer.insertAdjacentHTML('beforeend',`
-            <span>No Menu List Found</span>
-        `)
+function displayVideos(data) {
+    if (!data.length) {
+        return videoContainer.insertAdjacentHTML('beforeend', `
+            <span>No Videos Found</span>
+        `);
     }
-    //display menu list here
-    for(let i=0;i<data.length;i++){
-        VideosContainer.insertAdjacentHTML('beforeend',`
-            <div style="margin-bottom: 20px;">
-                <p><strong>${data[i].title}</strong></p>
-                <video width="480" controls>
-                    <source src="${data[i].link}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        `)
+
+    for (let i = 0; i < data.length; i++) {
+        // Only include files that end with .mkv, .mp4, etc.
+        const isVideo = /\.(mkv|mp4|webm)$/i.test(data[i].link);
+        if (isVideo) {
+            videoContainer.insertAdjacentHTML('beforeend', `
+                <div class="video-container">
+                    <video width="320" height="240" controls>
+                        <source src="${data[i].link}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><b>${data[i].title}</b></p>
+                </div>
+            `);
+        }
     }
 }
 
-//Obtain Menu and Display
-fetchData();
+fetchVideos();

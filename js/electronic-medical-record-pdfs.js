@@ -18,10 +18,8 @@ function displayData(data){
     //display menu list here
     for(let i=0;i<data.length;i++){
         PDFContainer.insertAdjacentHTML('beforeend',`
-            <div>
-                <a href='${data[i].link}' target='_blank'>
-                    ${data[i].title}
-                </a>
+            <div class='pdf-container'>
+                <a href='${data[i].link}' target='_blank'>${data[i].title}</a>
             </div>
         `)
     }
