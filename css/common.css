@@ -21,7 +21,8 @@ footer{
     align-items: center;
 }
 #electronic-medical-record-videos-container,
-#administrative-module-videos-container{
+#administrative-module-videos-container,
+#logistic-management-videos-container{
     display:flex;
     flex-wrap:wrap;
     gap:0.25rem;
