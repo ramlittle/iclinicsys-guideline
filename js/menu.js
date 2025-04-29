@@ -19,7 +19,7 @@ function displayMenu(data){
     for(let i=0;i<data.length;i++){
         MenuListContainer.insertAdjacentHTML('beforeend',`
             <div>
-                <a href=''>
+                <a href='${data[i].link}'>
                     <img src='${data[i].image}'/>
                 <a>
             </div>

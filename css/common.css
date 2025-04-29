@@ -10,3 +10,10 @@ img{
 body{
     background-color: beige;
 }
+
+footer{
+    display:flex;
+    flex-direction:column;
+    gap:0.25rem;
+    align-items: center;
+}

@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height:90vh;
+    gap:0.5rem;
 }
 
 .menu-list-container{
@@ -16,3 +17,20 @@
     flex-direction:column;
     align-items: center;
 }
+.menu-list-container img{
+    height:15rem;
+    width:15rem;
+}
+
+.logo-list-container{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-list-container > :nth-child(1){
+    height: 10rem;
+    width: 12rem;
+}
+
