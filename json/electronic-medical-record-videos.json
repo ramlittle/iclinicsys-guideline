@@ -18,5 +18,21 @@
     {
         "title":"How to close active prenatal case or folder",
         "link":"../data/videos/electronic-medical-records/how-to-close-active-prenatal-case-or-folder.mkv"
+    },
+    {
+        "title":"Functions on the patient profile",
+        "link":"../data/videos/electronic-medical-records/functions-on-the-patient-profile.mkv"
+    },
+    {
+        "title":"How to drop FP Method",
+        "link":"../data/videos/electronic-medical-records/how-to-drop-FP-method.mkv"
+    },
+    {
+        "title":"How add FP Claims",
+        "link":"../data/videos/electronic-medical-records/how-to-add-FP-claims.mkv"
+    },
+    {
+        "title":"How to add TBDOTS Claims",
+        "link":"../data/videos/electronic-medical-records/how-to-add-TBDOTS-claims.mkv"
     }
 ]

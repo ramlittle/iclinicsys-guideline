@@ -6,22 +6,22 @@
     },
     {
         "title":"logistic management",
-        "link":"./pages/electronic-medical-records.html",
+        "link":"./pages/logistic-management.html",
         "image":"../data/images/2-logistic-management-menu.png"
     },
     {
         "title":"environmental health",
-        "link":"./pages/electronic-medical-records.html",
+        "link":"./pages/environmental-health.html",
         "image":"../data/images/3-environmental-health-menu.png"
     },
     {
         "title":"administrative management",
-        "link":"./pages/electronic-medical-records.html",
+        "link":"./pages/administrative-module.html",
         "image":"../data/images/4-administrative-management-menu.png"
     },
     {
         "title":"financial management",
-        "link":"./pages/electronic-medical-records.html",
+        "link":"",
         "image":"../data/images/5-financial-management-menu.png"
     }
 ]
