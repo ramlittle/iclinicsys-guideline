@@ -21,7 +21,7 @@
     },
     {
         "title":"financial management",
-        "link":"",
+        "link":"./pages/financial-management.html",
         "image":"../data/images/5-financial-management-menu.png"
     }
 ]
